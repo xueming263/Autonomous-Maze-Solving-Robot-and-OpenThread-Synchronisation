@@ -76,3 +76,64 @@ Possible future improvements include: decentralized coordination algorithms coop
 |
 |-- README
 |-- roboter
+## Project Structure
+
+```
+maze-project
+│
+├── maze-client
+│   ├── .vscode
+│   │   └── settings.json
+│   ├── build
+│   │   └── maze-project.uf2
+│   ├── include
+│   │   ├── follow_segment.h
+│   │   ├── leds.h
+│   │   ├── maze_solve.h
+│   │   ├── multi_display.h
+│   │   ├── path.h
+│   │   ├── sensors.h
+│   │   ├── turn.h
+│   │   └── uart_rx.h
+│   │
+│   ├── CMakeLists.txt
+│   ├── follow_segment.c
+│   ├── leds.c
+│   ├── main.c
+│   ├── maze_solve.c
+│   ├── multi_display.c
+│   ├── path.c
+│   ├── pico_sdk_import.cmake
+│   ├── readme.txt
+│   ├── sensors.c
+│   ├── turn.c
+│   └── uart_rx.c
+│
+├── maze-server
+│   ├── .vscode
+│   │   └── settings.json
+│   ├── build
+│   │   └── maze-project.uf2
+│   ├── include
+│   │   ├── follow_segment.h
+│   │   ├── maze_solve.h
+│   │   ├── multi_display.h
+│   │   ├── path.h
+│   │   ├── sensors.h
+│   │   ├── turn.h
+│   │   └── uart_rx.h
+│   │
+│   ├── CMakeLists.txt
+│   ├── follow_segment.c
+│   ├── main.c
+│   ├── maze_solve.c
+│   ├── multi_display.c
+│   ├── path.c
+│   ├── pico_sdk_import.cmake
+│   ├── sensors.c
+│   ├── turn.c
+│   └── uart_rx.c
+│
+├── README.md
+└── robot.png
+```
