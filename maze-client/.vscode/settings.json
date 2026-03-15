@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "multi_display.h": "c",
+        "sensors.h": "c"
+    }
+}
