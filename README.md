@@ -3,6 +3,7 @@
 This project implements a distributed multi-robot control system using two Pololu mobile robots and nRF52840 microcontrollers. The goal of the project is to coordinate multiple robots to solve a maze navigation task using wireless communication and embedded control. The system combines embedded systems, wireless networking, and robot coordination.
 
 ## System Architecture
+![System Architecture](roboter.pdf)
 The system consists of three main components:
 Robot 1
 Robot 2
